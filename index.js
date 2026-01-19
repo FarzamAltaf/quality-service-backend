@@ -58,7 +58,7 @@ app.use("/contact", ContactRouter);
 app.use("/role-management", RoleManagementRouter);
 
 //#region Self Ping
-const SELF_URL = "https://noor-al-hayaa-backend.onrender.com";
+const SELF_URL = "https://quality-service-backend.onrender.com";
 
 const pingSelf = async () => {
     try {
